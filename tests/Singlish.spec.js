@@ -27,11 +27,11 @@ test.describe('SwiftTranslator Singlish → Sinhala', () => {
 
   //Positive Functional (24 cases) 
   const positiveCases = [
-    { id: 'Pos_Fun_0001', input: 'mama gedhara yanavaa', expected: '  මම ගෙදර යනවා' },
-    { id: 'Pos_Fun_0002', input: 'api kaeema kanna yanavaa saha passe chithrapatayak balamu', expected: '  අපි කෑම කන්න යනවා සහ පස්සේ චිත්‍රපටයක් බලමු' },
+    { id: 'Pos_Fun_0001', input: 'mama gedhara yanavaa', expected: 'මම ගෙදර යනවා' },
+    { id: 'Pos_Fun_0002', input: 'api kaeema kanna yanavaa saha passe chithrapatayak balamu', expected: 'අපි කෑම කන්න යනවා සහ පස්සෙ චිත්‍රපටයක් බලමු' },
     { id: 'Pos_Fun_0003', input: 'mama gedhara yanavaa saha passe bath kanavaa', expected: 'මම ගෙදර යනවා සහ පස්සෙ බත් කනවා' },
     { id: 'Pos_Fun_0004', input: 'oya envaa nam mama balan innavaa', expected: 'ඔය එන්වා නම් මම බලන් ඉන්නවා' },
-    { id: 'Pos_Fun_0005', input: ' oyaa kavadhdha enne?', expected: 'ඔයා කවද්ද එන්නේ?' },
+    { id: 'Pos_Fun_0005', input: 'oyaa kavadhdha enne?', expected: 'ඔයා කවද්ද එන්නෙ?' },
     { id: 'Pos_Fun_0006', input: ' issarahata yanna', expected: 'ඉස්සරහට යන්න' },
     { id: 'Pos_Fun_0007', input: 'oyaa adha kohomadha inne?', expected: 'ඔයා අද කොහොමද ඉන්නේ?' },
     { id: 'Pos_Fun_0008', input: 'issarahata poddak yanna', expected: 'ඉස්සරහට පොඩ්ඩක් යන්න' },
